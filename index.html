@@ -4,9 +4,105 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#additional education" class="nav-link">Additional education</a></li>
+        <li class="nav-item"><a href="#work experience" class="nav-link">Work experience</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#professional skills" class="nav-link">Professional skills</a></li>
+        <li class="nav-item"><a href="#code example" class="nav-link">Code example</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#english level" class="nav-link">English level</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="section" id="profile">
+      <h1>Kiryl Sinitsa</h1>
+      <h2>Software Engineer</h2>
+      <img src="avatar.jpg" alt="My photo">
+    </section>
+    <section class="section" id="contacts">
+      <h3>Contacts</h3>
+      
+    </section>
+    <section class="section" id="education">
+      <h3>Education</h3>
+      <ul>
+        <li>2015 – 2017 Institute of Informational Technologies BSUIR, Department of microprocessor systems and networks</li>
+        <li>2004 – 2005 Belarusian National Technical University, Department of Cross-Cultural Professional Communication Department Magistracy</li>
+        <li>1999 – 2004 Belarusian National Technical University, Department of Cross-Cultural Professional Communication Department</li>
+      </ul>
+    </section>
+    <section class="section" id="additional education">
+      <h3>Additional education</h3>
+      <ul>
+        <li>Courses in Streamline Language School, Advanced+ (C1+)</li>
+        <li>Online courses «Job of Frontend-developer» on education platform Skillbox (HTML5, CSS3, JavaScript)</li>
+      </ul>
+    </section>
+    <section class="section" id="work experience">
+      <h3>Work experience</h3>
+      <p>Since 01.08.2017 to 30.04.2022 – Minsk Motor Plant, software engineer</p>
+      <p>From 07.09.2010 to 31.07.2017 – Minsk Motor Plant, engineer for the organization and regulation of labor</p>
+    </section>
+    <section class="section" id="professional skills">
+      <h3>Professional skills</h3>
+      <ol>
+        <li>C# – thesis "Software tool for piece work accounting" (MVC, WPF, EntityFramework, Prism, AutoMapper, NLog). Please, find at Github: https://github.com/kirillsinitsa/rates-fixer</li>
+        <li>FoxPro and Visual FoxPro – applications for file databases</li>
+        <li>MS Excel – programmatically created reports</li>
+      </ol>
+    </section>
+    <section class="section" id="code example">
+      <h3>Code example</h3>
+      <p><pre>
+        function bubbleSort(arr) {
+        let count = 0;
+        let needIteration = true;
+        while (needIteration) {
+          needIteration = false;
+          for (let i = 0; i < arr.length; i++) {
+            for (let j = 0; j < arr.length - i - 1; j++) {
+              if (arr[j] > arr[j + 1]) {
+                const temp = arr[j + 1];
+                arr[j + 1] = arr[j];
+                arr[j] = temp;
+                count += 1;
+                needIteration = true;
+              }
+            }
+          }
+          return count;
+        }
+      }
+    </pre></p>
+    </section>
+    <section class="section" id="projects">
+      <h3>Projects</h3>
+      <p>I took part in translation of several books for publishing house «Piter», including:</p>
+      <ul>
+        <li>Bart Baesens «Beginning Java Programming: The Object-Oriented Approach»</li>
+        <li>Allen B. Downey «Think Data Structures. Algorithms and Information Retrieval in Java»</li>
+        <li>Cathy O’Neil, Rachel Schutt «Doing Data Science»</li>
+      </ul>
+    </section>
+    <section class="section" id="english level">
+      <h3>English level</h3>
+      <p>C1 English level (advanced)</p>
+    </section>
+  </main>
+  <footer class="footer">
+  </footer>
 </body>
 </html>
