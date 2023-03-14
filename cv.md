@@ -9,7 +9,7 @@ Skype: kirill.sinitsa
 
 ### Additional education
 Courses in Streamline Language School , Advanced+ (C1+).
-Online courses «Job of Frontend-developer» on education platform Skillbox (HTML5, CSS3, JavaScript)
+Online course «Profession Frontend-developer» on education platform Skillbox (HTML5, CSS3, JavaScript)
 
 ### Work Experience
 Since 01.08.2017 to 30.04.2022 – Minsk Motor Plant, software engineer
